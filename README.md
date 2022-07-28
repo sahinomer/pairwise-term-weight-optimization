@@ -20,6 +20,17 @@ python collection.py \
     --collection_path msmarco-passage/collection.tsv 
 ```
 
+## Optimize Term Weights
+
+```
+python weight_optimize.py \
+    --collection msmarco_collection_data \
+    --query_path msmarco-passage/queries.dev.small.tsv \
+    --qrel_path msmarco-passage/qrels.dev.small.tsv \
+    --result_path bm25-rank_queries.dev.small.tsv \
+    --output_path outputs/numpy_nonneg_alpha1_words.queries.dev.small.tsv
+```
+
 
 ## Convert Weighted Terms to Query
 
