@@ -37,7 +37,7 @@ python weight_optimize.py \
 ```
 python weighted_terms_to_query.py \
     -i weigted_terms.dev.small.json \
-    -o weigted_terms.dev.small..tsv 
+    -o weigted_terms.dev.small.tsv 
 ```
 
 
